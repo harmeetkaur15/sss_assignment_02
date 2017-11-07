@@ -5,11 +5,8 @@ firebase.initializeApp({
 })
 
 firebase.database().ref('star/' + 'student1').push({
-  
   section: 'wmdd1',
   name: 'harmeet'
-
-   
   });
   
 

@@ -5,9 +5,7 @@ firebase.initializeApp({
 })
 
   firebase.database().ref('star/').child('student1').set({
-   
-    section: 1
-    
+   section: 1
   });
  
 
